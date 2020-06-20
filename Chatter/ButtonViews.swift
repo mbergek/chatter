@@ -54,15 +54,3 @@ struct ButtonViews_Previews: PreviewProvider {
         }
     }
 }
-
-//struct ButtonViews: View {
-//    var body: some View {
-//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-//    }
-//}
-//
-//struct ButtonViews_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ButtonViews()
-//    }
-//}

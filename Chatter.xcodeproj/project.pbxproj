@@ -17,6 +17,8 @@
 		5BA81243249E131000CCD5F9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81242249E131000CCD5F9 /* Colors.swift */; };
 		5BA81245249E146900CCD5F9 /* TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81244249E146900CCD5F9 /* TextModifiers.swift */; };
 		5BA81249249E17F800CCD5F9 /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81248249E17F800CCD5F9 /* ButtonViews.swift */; };
+		5BA8124B249E2ABB00CCD5F9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8124A249E2ABB00CCD5F9 /* LoginView.swift */; };
+		5BA8124D249E2C8700CCD5F9 /* ErrorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8124C249E2C8700CCD5F9 /* ErrorTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		5BA81242249E131000CCD5F9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		5BA81244249E146900CCD5F9 /* TextModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifiers.swift; sourceTree = "<group>"; };
 		5BA81248249E17F800CCD5F9 /* ButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
+		5BA8124A249E2ABB00CCD5F9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5BA8124C249E2C8700CCD5F9 /* ErrorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				5BA81242249E131000CCD5F9 /* Colors.swift */,
 				5BA81244249E146900CCD5F9 /* TextModifiers.swift */,
 				5BA81248249E17F800CCD5F9 /* ButtonViews.swift */,
+				5BA8124A249E2ABB00CCD5F9 /* LoginView.swift */,
+				5BA8124C249E2C8700CCD5F9 /* ErrorTextField.swift */,
 			);
 			path = Chatter;
 			sourceTree = "<group>";
@@ -159,11 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA81249249E17F800CCD5F9 /* ButtonViews.swift in Sources */,
+				5BA8124D249E2C8700CCD5F9 /* ErrorTextField.swift in Sources */,
 				5BA8122D249E10E000CCD5F9 /* AppDelegate.swift in Sources */,
 				5BA81245249E146900CCD5F9 /* TextModifiers.swift in Sources */,
 				5BA81243249E131000CCD5F9 /* Colors.swift in Sources */,
 				5BA8122F249E10E000CCD5F9 /* SceneDelegate.swift in Sources */,
 				5BA81231249E10E000CCD5F9 /* ContentView.swift in Sources */,
+				5BA8124B249E2ABB00CCD5F9 /* LoginView.swift in Sources */,
 				5BA81241249E110800CCD5F9 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
