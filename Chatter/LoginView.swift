@@ -32,7 +32,7 @@ struct LoginView: View {
                 PrimaryButton(title: "Log In")
             }
             
-            NavigationLink(destination: EmptyView(), isActive: $showContacts) {
+            NavigationLink(destination: ContactsView(), isActive: $showContacts) {
                 EmptyView()
             }
         }

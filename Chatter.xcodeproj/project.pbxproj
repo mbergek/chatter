@@ -19,6 +19,10 @@
 		5BA81249249E17F800CCD5F9 /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81248249E17F800CCD5F9 /* ButtonViews.swift */; };
 		5BA8124B249E2ABB00CCD5F9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8124A249E2ABB00CCD5F9 /* LoginView.swift */; };
 		5BA8124D249E2C8700CCD5F9 /* ErrorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8124C249E2C8700CCD5F9 /* ErrorTextField.swift */; };
+		5BA8124F249E349500CCD5F9 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8124E249E349500CCD5F9 /* ContactsView.swift */; };
+		5BA81251249E352600CCD5F9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81250249E352600CCD5F9 /* Contact.swift */; };
+		5BA81253249E356100CCD5F9 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81252249E356100CCD5F9 /* ContactRow.swift */; };
+		5BA81255249E36CD00CCD5F9 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA81254249E36CD00CCD5F9 /* AvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		5BA81248249E17F800CCD5F9 /* ButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
 		5BA8124A249E2ABB00CCD5F9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5BA8124C249E2C8700CCD5F9 /* ErrorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTextField.swift; sourceTree = "<group>"; };
+		5BA8124E249E349500CCD5F9 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		5BA81250249E352600CCD5F9 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5BA81252249E356100CCD5F9 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		5BA81254249E36CD00CCD5F9 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 				5BA81248249E17F800CCD5F9 /* ButtonViews.swift */,
 				5BA8124A249E2ABB00CCD5F9 /* LoginView.swift */,
 				5BA8124C249E2C8700CCD5F9 /* ErrorTextField.swift */,
+				5BA8124E249E349500CCD5F9 /* ContactsView.swift */,
+				5BA81250249E352600CCD5F9 /* Contact.swift */,
+				5BA81252249E356100CCD5F9 /* ContactRow.swift */,
+				5BA81254249E36CD00CCD5F9 /* AvatarView.swift */,
 			);
 			path = Chatter;
 			sourceTree = "<group>";
@@ -167,12 +179,16 @@
 				5BA81249249E17F800CCD5F9 /* ButtonViews.swift in Sources */,
 				5BA8124D249E2C8700CCD5F9 /* ErrorTextField.swift in Sources */,
 				5BA8122D249E10E000CCD5F9 /* AppDelegate.swift in Sources */,
+				5BA8124F249E349500CCD5F9 /* ContactsView.swift in Sources */,
+				5BA81255249E36CD00CCD5F9 /* AvatarView.swift in Sources */,
 				5BA81245249E146900CCD5F9 /* TextModifiers.swift in Sources */,
 				5BA81243249E131000CCD5F9 /* Colors.swift in Sources */,
+				5BA81251249E352600CCD5F9 /* Contact.swift in Sources */,
 				5BA8122F249E10E000CCD5F9 /* SceneDelegate.swift in Sources */,
 				5BA81231249E10E000CCD5F9 /* ContentView.swift in Sources */,
 				5BA8124B249E2ABB00CCD5F9 /* LoginView.swift in Sources */,
 				5BA81241249E110800CCD5F9 /* WelcomeView.swift in Sources */,
+				5BA81253249E356100CCD5F9 /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
