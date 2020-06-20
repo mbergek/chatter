@@ -13,6 +13,8 @@ struct ChatView: View {
     let currentUser: Contact
     let receiver: Contact
     
+    @ObservedObject private var keyboardObserver = KeyboardObserver()
+    
     @State private var messages: [Message] = [
         Message(id: 0, text: "Morbi scelerisque luctus velit", contact: Contact(name: "Name", avatar: nil, id: "id", isOnline: true)),
         Message(id: 1, text: "Pellentesque ipsum. Mauris elem enes tumen mauris vitae tortor. Pellentesque ipsum. ", contact: Contact(name: "Name", avatar: nil, id: "id", isOnline: true)),
@@ -60,6 +62,8 @@ struct ChatView: View {
                 }
                 
                 ChatTextField(sendAction: onSendTapped)
+                    .padding(.bottom, keyboardObserver.keyboardHeight)
+                    .animation(.easeInOut(duration: 0.3))
             }
         }
     }
